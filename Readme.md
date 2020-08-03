@@ -17,7 +17,7 @@
 <table>
  <tr>
     <td><img src="https://user-images.githubusercontent.com/30422190/89197242-cde42580-d581-11ea-9e8f-bd0ba7f7ba39.jpg" width="400"></td>
-    <td><img src="https://user-images.githubusercontent.com/30422190/89197244-cde42580-d581-11ea-9d4e-8e90cfafe850.jpg" width="400"></td>
+    <td><img src="https://user-images.githubusercontent.com/30422190/89198930-421fc880-d584-11ea-86d5-e0d7863f6ab3.jpg" width="400"></td>
  </tr>
 </table>
 

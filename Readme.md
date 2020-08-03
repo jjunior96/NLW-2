@@ -20,3 +20,7 @@
     <td><img src="https://user-images.githubusercontent.com/30422190/89197244-cde42580-d581-11ea-9d4e-8e90cfafe850.jpg" width="400"></td>
  </tr>
 </table>
+
+## Run
+
+`yarn start`

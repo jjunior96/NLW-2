@@ -14,7 +14,7 @@ function TeacherItem() {
         />
         <div>
           <strong>Junior Alves</strong>
-          <span>Matemática</span>
+          <span>React</span>
         </div>
       </header>
 

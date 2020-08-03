@@ -2,7 +2,7 @@
 
 ## Web
 
-<table border="none">
+<table>
  <tr>
     <td><img src="https://user-images.githubusercontent.com/30422190/89197232-ca509e80-d581-11ea-9fa4-b0ab23fec2e4.png"></td>
  </tr>

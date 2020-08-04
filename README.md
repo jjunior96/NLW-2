@@ -13,10 +13,10 @@
 
 <h1 align="center">Índice</h1>
  
-[Screenshot](#screenshot)  | [Estrutura de Projeto](#estrutura-do-projeto)  | [Como Usar](#como-usar)  | [Tecnologias](#rocket-tecnologias)  |  [Features](#features-implementadas)  |  [Licença](#licença)  
+[Screenshots](#screenshots)  | [Estrutura de Projeto](#estrutura-do-projeto)  | [Como Usar](#como-usar)  | [Tecnologias](#rocket-tecnologias)  |  [Features](#features-implementadas)  |  [Licença](#licença)  
 :-------:                  | ------:                                        |:-------:                 | ------:                             | ------:                               | ------:
 
-## Screenshot
+## Screenshots
 
 ### Web
 

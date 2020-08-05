@@ -101,9 +101,9 @@ yarn start
   - [x] Listagem de conexões.
 
 - Frontend:
-  - [ ] Criação de classes (Professor/aula/horários disponíveis);
+  - [x] Criação de classes (Professor/aula/horários disponíveis);
   - [x] Listagem de classes;
-  - [ ] Criador de Conexões;
+  - [x] Criador de Conexões;
   - [x] Listagem de conexões.
 
 ## Licença

@@ -4,6 +4,8 @@
 *** ou abra uma Issue com a tag "sugestão". :D
 -->
 
+<!-- [![NPM](https://img.shields.io/npm/l/react-native-template-rocketseat-advanced.svg)](https://choosealicense.com/licenses/mit) -->
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/47749249/89240844-b897e700-d5d3-11ea-850d-5f95d08833c7.png" width="320px"/>
 <p align="center"><i>Plataforma que conecta professores e alunos.</i></p>
@@ -16,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/npm/l/react-native-template-rocketseat-advanced.svg)](https://choosealicense.com/licenses/mit">
+<img src="https://choosealicense.com/licenses/mit">
 </p>
 
 <h1 align="center">Índice</h1>

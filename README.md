@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-[![NPM](https://img.shields.io/npm/l/react-native-template-rocketseat-advanced.svg)](https://choosealicense.com/licenses/mit)
+  <img src="https://img.shields.io/npm/l/react-native-template-rocketseat-advanced.svg)](https://choosealicense.com/licenses/mit">
 </p>
 
 <h1 align="center">Índice</h1>

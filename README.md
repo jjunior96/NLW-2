@@ -11,6 +11,12 @@
 <p align="center"><i>Plataforma que conecta professores e alunos.</i></p>
 </p>
 
+<p align="center">
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/jjunior96/NLW?color=%236842c2">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/jjunior96/NLW?color=%236842c2&logoColor=%236842c2" />
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jjunior96/NLW?color=%236842c2">
+</p>
+
 <h1 align="center">Índice</h1>
  
 [Screenshots](#screenshots)  | [Estrutura de Projeto](#estrutura-do-projeto)  | [Como Usar](#como-usar)  | [Tecnologias](#rocket-tecnologias)  |  [Features](#features-implementadas)  |  [Licença](#licença)  
@@ -49,7 +55,7 @@ NLW/server
 │   │   ├── connection.ts
 │   │   └── database.sqlite
 │   └── utils/
-│       └── convertHoursToMinutes.ts.ts
+│       └── convertHoursToMinutes.ts
 ├── routes.ts
 ├── server.ts
 ├── .editorconfig

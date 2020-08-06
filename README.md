@@ -4,8 +4,6 @@
 *** ou abra uma Issue com a tag "sugestão". :D
 -->
 
-[![NPM](https://img.shields.io/npm/l/react-native-template-rocketseat-advanced.svg)](https://choosealicense.com/licenses/mit)
-
 <p align="center">
 <img src="https://user-images.githubusercontent.com/47749249/89240844-b897e700-d5d3-11ea-850d-5f95d08833c7.png" width="320px"/>
 <p align="center"><i>Plataforma que conecta professores e alunos.</i></p>
@@ -15,6 +13,10 @@
 <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/jjunior96/NLW?color=%236842c2">
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/jjunior96/NLW?color=%236842c2&logoColor=%236842c2" />
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jjunior96/NLW?color=%236842c2">
+</p>
+
+<p align="center">
+[![NPM](https://img.shields.io/npm/l/react-native-template-rocketseat-advanced.svg)](https://choosealicense.com/licenses/mit)
 </p>
 
 <h1 align="center">Índice</h1>

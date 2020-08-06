@@ -28,8 +28,8 @@
 ### Mobile
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/30422190/89197242-cde42580-d581-11ea-9e8f-bd0ba7f7ba39.jpg" width="400">
-<img src="https://user-images.githubusercontent.com/30422190/89198930-421fc880-d584-11ea-86d5-e0d7863f6ab3.jpg" width="400">
+<img src="https://user-images.githubusercontent.com/30422190/89578716-f893df80-d808-11ea-9f37-a58beeba0451.jpg" width="400">
+<img src="https://user-images.githubusercontent.com/30422190/89578719-faf63980-d808-11ea-96b5-ed359d2647c1.jpg" width="400">
 </p>
 
 ## Estrutura do projeto

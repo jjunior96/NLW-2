@@ -103,7 +103,7 @@ function TeacherList() {
                   value={time}
                   onChangeText={(text) => setTime(text)}
                   placeholder="Qual horário?"
-                  placeholderTextColor=""
+                  placeholderTextColor="#c1bccc"
                 />
               </View>
             </View>

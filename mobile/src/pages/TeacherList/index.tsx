@@ -81,7 +81,7 @@ function TeacherList() {
               value={subject}
               onChangeText={(text) => setSubject(text)}
               placeholder="Qual a matéria?"
-              placeholderTextColor="#c1bcc"
+              placeholderTextColor="#c1bccc"
             />
 
             <View style={styles.inputGroup}>
@@ -92,7 +92,7 @@ function TeacherList() {
                   value={week_day}
                   onChangeText={(text) => setWeek_day(text)}
                   placeholder="Qual o dia?"
-                  placeholderTextColor=""
+                  placeholderTextColor="#c1bccc"
                 />
               </View>
 

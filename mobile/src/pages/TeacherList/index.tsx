@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput } from 'react-native';
+import { useFocusEffect } from '@react-navigation/native';
+
 import PageHeader from '../../components/PageHeader';
 import TeacherItem, { Teacher } from '../../components/TeacherItem';
 import {
@@ -8,23 +10,47 @@ import {
   RectButton,
 } from 'react-native-gesture-handler';
 import { Feather } from '@expo/vector-icons';
+import AsyncStorage from '@react-native-community/async-storage';
+
 import api from '../../services/api';
 
 import styles from './styles';
 
 function TeacherList() {
-  const [isfiltersVisible, setIsFiltersVisible] = useState(false);
   const [teachers, setTeachers] = useState([]);
+  const [favorites, setFavorites] = useState<number[]>([]);
+  const [isfiltersVisible, setIsFiltersVisible] = useState(false);
 
   const [subject, setSubject] = useState('');
   const [week_day, setWeek_day] = useState('');
   const [time, setTime] = useState('');
+
+  function loadFavorites() {
+    AsyncStorage.getItem('favorite').then((reponse) => {
+      if (reponse) {
+        const favoritedTeachers = JSON.parse(reponse);
+        const favoritedTeachersIds = favoritedTeachers.map(
+          (teacher: Teacher) => {
+            return teacher.id;
+          }
+        );
+
+        setFavorites(favoritedTeachersIds);
+      }
+    });
+  }
+
+  useFocusEffect(() => {
+    loadFavorites();
+  });
 
   function handleToggleFiltersVisible() {
     setIsFiltersVisible(!isfiltersVisible);
   }
 
   async function handleFiltersSubmit() {
+    loadFavorites();
+
     const response = await api.get('classes', {
       params: {
         subject,
@@ -99,9 +125,15 @@ function TeacherList() {
           paddingBottom: 16,
         }}
       >
-        {teachers.map((teacher: Teacher) => (
-          <TeacherItem key={teacher.id} teacher={teacher} />
-        ))}
+        {teachers.map((teacher: Teacher) => {
+          return (
+            <TeacherItem
+              favorited={favorites.includes(teacher.id)}
+              key={teacher.id}
+              teacher={teacher}
+            />
+          );
+        })}
       </ScrollView>
     </View>
   );

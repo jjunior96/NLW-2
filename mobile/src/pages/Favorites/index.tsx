@@ -36,9 +36,7 @@ function Favorites() {
         }}
       >
         {favorites.map((teacher: Teacher) => {
-          return (
-            <TeacherItem key={Math.random()} teacher={teacher} favorited />
-          );
+          return <TeacherItem key={teacher.id} teacher={teacher} favorited />;
         })}
       </ScrollView>
     </View>

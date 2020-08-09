@@ -6,7 +6,8 @@
   "scripts": {
     "start": "ts-node-dev --transpile-only --ignore-watch node-modules --respawn src/server.ts",
     "knex:migrate": "knex --knexfile knexfile.ts migrate:latest",
-    "knex:migrate:back": "knex --knexfile knexfile.ts migrate:rollback"
+    "knex:migrate:back": "knex --knexfile knexfile.ts migrate:rollback",
+    "postinstall": "knex --knexfile knexfile.ts migrate:latest"
   },
   "devDependencies": {
     "@types/cors": "^2.8.7",

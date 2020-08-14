@@ -20,6 +20,8 @@
   --color-button-text: #ffffff;
   --color-box-base: #ffffff;
   --color-box-footer: #fafafc;
+  --color-title-login: #222;
+  --color-hover-link: #222;
 }
 
 * {
